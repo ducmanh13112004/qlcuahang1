@@ -1,0 +1,9 @@
+D:\c#\QL-BanGiayTheThao\DTO\bin\Debug\DTO.exe.config
+D:\c#\QL-BanGiayTheThao\DTO\bin\Debug\DTO.exe
+D:\c#\QL-BanGiayTheThao\DTO\bin\Debug\DTO.pdb
+D:\c#\QL-BanGiayTheThao\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+D:\c#\QL-BanGiayTheThao\DTO\obj\Debug\DTO.Properties.Resources.resources
+D:\c#\QL-BanGiayTheThao\DTO\obj\Debug\DTO.csproj.GenerateResource.cache
+D:\c#\QL-BanGiayTheThao\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+D:\c#\QL-BanGiayTheThao\DTO\obj\Debug\DTO.exe
+D:\c#\QL-BanGiayTheThao\DTO\obj\Debug\DTO.pdb

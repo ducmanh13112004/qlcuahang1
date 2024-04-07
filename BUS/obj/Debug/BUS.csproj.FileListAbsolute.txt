@@ -1,0 +1,16 @@
+D:\c#\QL-BanGiayTheThao\BUS\bin\Debug\BUS.exe.config
+D:\c#\QL-BanGiayTheThao\BUS\bin\Debug\BUS.exe
+D:\c#\QL-BanGiayTheThao\BUS\bin\Debug\BUS.pdb
+D:\c#\QL-BanGiayTheThao\BUS\bin\Debug\DAO.exe
+D:\c#\QL-BanGiayTheThao\BUS\bin\Debug\DTO.exe
+D:\c#\QL-BanGiayTheThao\BUS\bin\Debug\DAO.pdb
+D:\c#\QL-BanGiayTheThao\BUS\bin\Debug\DAO.exe.config
+D:\c#\QL-BanGiayTheThao\BUS\bin\Debug\DTO.pdb
+D:\c#\QL-BanGiayTheThao\BUS\bin\Debug\DTO.exe.config
+D:\c#\QL-BanGiayTheThao\BUS\obj\Debug\BUS.csproj.AssemblyReference.cache
+D:\c#\QL-BanGiayTheThao\BUS\obj\Debug\BUS.Properties.Resources.resources
+D:\c#\QL-BanGiayTheThao\BUS\obj\Debug\BUS.csproj.GenerateResource.cache
+D:\c#\QL-BanGiayTheThao\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+D:\c#\QL-BanGiayTheThao\BUS\obj\Debug\BUS.csproj.Up2Date
+D:\c#\QL-BanGiayTheThao\BUS\obj\Debug\BUS.exe
+D:\c#\QL-BanGiayTheThao\BUS\obj\Debug\BUS.pdb
