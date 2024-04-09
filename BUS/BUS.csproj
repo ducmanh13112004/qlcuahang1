@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="SanPhamBUS.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -78,9 +79,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DAO\DAL.csproj">
+    <ProjectReference Include="..\DAO\DAO.csproj">
       <Project>{45958285-07a8-465c-94ee-23a943fbd283}</Project>
-      <Name>DAL</Name>
+      <Name>DAO</Name>
     </ProjectReference>
     <ProjectReference Include="..\DTO\DTO.csproj">
       <Project>{db74afd4-fa85-4509-a034-b7c32956b22c}</Project>

@@ -4,15 +4,27 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Data.SqlClient;
+using System.Data;
+using DTO;
 
 namespace DAO
 {
-    class NhanVienDAL
+    public class NhanVienDAO : ConnectDB
     {
-        private static string stringConnection = "Data Source=.;Initial Catalog=QLCuaHangGiayTheThao;Integrated Security=True";
-        public static SqlConnection getConnection()
-        {
-            return new SqlConnection(stringConnection);
+        public DataTable ListNhanVienDAO() {
+            try
+            {
+                _conn.Open();
+                SqlCommand cmd = new SqlCommand("SELECT * FROM NhanVien", _conn);
+                SqlDataReader rdr = cmd.ExecuteReader();
+                DataTable dt = new DataTable();
+                dt.Load(rdr);
+                return dt;
+            }
+            finally
+            {
+                _conn.Close();
+            }
         }
     }
 }

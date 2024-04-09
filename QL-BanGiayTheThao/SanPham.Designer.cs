@@ -32,7 +32,12 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SanPham));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btn_reset = new System.Windows.Forms.Button();
+            this.btn_xoa = new System.Windows.Forms.Button();
+            this.btn_sua = new System.Windows.Forms.Button();
+            this.btn_them = new System.Windows.Forms.Button();
             this.cbbNCC = new System.Windows.Forms.ComboBox();
             this.txtTimKiem = new System.Windows.Forms.TextBox();
             this.txtTenSP = new System.Windows.Forms.TextBox();
@@ -58,6 +63,8 @@
             this.clXuatXu = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.clGiaBan = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.btnSearch = new System.Windows.Forms.Button();
+            this.panel1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgrvHienThiListSP)).BeginInit();
             this.groupBox1.SuspendLayout();
@@ -65,12 +72,60 @@
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.btn_reset);
+            this.panel1.Controls.Add(this.btn_xoa);
+            this.panel1.Controls.Add(this.btn_sua);
+            this.panel1.Controls.Add(this.btn_them);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel1.Location = new System.Drawing.Point(790, 19);
+            this.panel1.Location = new System.Drawing.Point(824, 19);
             this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(178, 226);
             this.panel1.TabIndex = 26;
+            // 
+            // btn_reset
+            // 
+            this.btn_reset.BackColor = System.Drawing.Color.Silver;
+            this.btn_reset.Location = new System.Drawing.Point(53, 172);
+            this.btn_reset.Name = "btn_reset";
+            this.btn_reset.Size = new System.Drawing.Size(88, 33);
+            this.btn_reset.TabIndex = 3;
+            this.btn_reset.Text = "Reset";
+            this.btn_reset.UseVisualStyleBackColor = false;
+            this.btn_reset.Click += new System.EventHandler(this.btn_reset_Click);
+            // 
+            // btn_xoa
+            // 
+            this.btn_xoa.BackColor = System.Drawing.Color.Silver;
+            this.btn_xoa.Location = new System.Drawing.Point(53, 123);
+            this.btn_xoa.Name = "btn_xoa";
+            this.btn_xoa.Size = new System.Drawing.Size(88, 33);
+            this.btn_xoa.TabIndex = 2;
+            this.btn_xoa.Text = "Xóa";
+            this.btn_xoa.UseVisualStyleBackColor = false;
+            this.btn_xoa.Click += new System.EventHandler(this.btn_xoa_Click);
+            // 
+            // btn_sua
+            // 
+            this.btn_sua.BackColor = System.Drawing.Color.Silver;
+            this.btn_sua.Location = new System.Drawing.Point(53, 73);
+            this.btn_sua.Name = "btn_sua";
+            this.btn_sua.Size = new System.Drawing.Size(88, 33);
+            this.btn_sua.TabIndex = 1;
+            this.btn_sua.Text = "Sửa";
+            this.btn_sua.UseVisualStyleBackColor = false;
+            this.btn_sua.Click += new System.EventHandler(this.btn_sua_Click);
+            // 
+            // btn_them
+            // 
+            this.btn_them.BackColor = System.Drawing.Color.Silver;
+            this.btn_them.Location = new System.Drawing.Point(53, 23);
+            this.btn_them.Name = "btn_them";
+            this.btn_them.Size = new System.Drawing.Size(88, 34);
+            this.btn_them.TabIndex = 0;
+            this.btn_them.Text = "Thêm";
+            this.btn_them.UseVisualStyleBackColor = false;
+            this.btn_them.Click += new System.EventHandler(this.btn_them_Click);
             // 
             // cbbNCC
             // 
@@ -90,11 +145,11 @@
             this.txtTimKiem.BackColor = System.Drawing.Color.White;
             this.txtTimKiem.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.txtTimKiem.ForeColor = System.Drawing.Color.Gray;
-            this.txtTimKiem.Location = new System.Drawing.Point(30, 207);
+            this.txtTimKiem.Location = new System.Drawing.Point(30, 212);
             this.txtTimKiem.Margin = new System.Windows.Forms.Padding(3, 12, 3, 2);
             this.txtTimKiem.Multiline = true;
             this.txtTimKiem.Name = "txtTimKiem";
-            this.txtTimKiem.Size = new System.Drawing.Size(552, 31);
+            this.txtTimKiem.Size = new System.Drawing.Size(344, 33);
             this.txtTimKiem.TabIndex = 7;
             this.txtTimKiem.Text = "    Tìm kiếm";
             // 
@@ -198,13 +253,14 @@
             this.cbbTheloai.ForeColor = System.Drawing.Color.DarkGray;
             this.cbbTheloai.FormattingEnabled = true;
             this.cbbTheloai.Items.AddRange(new object[] {
-            "Ốp Lứng",
-            "Tai Nghe",
-            "Cáp Sạc",
-            "Củ Sạc",
-            "Ốp lưng",
-            "Loa Blutooth",
-            "Kính cường lực"});
+            "Giày thể thao",
+            "Giày thể thao nam",
+            "Giày Đá bóng",
+            "Giày leo núi",
+            "Giày đi bộ",
+            "Giày thể thao, Golf",
+            "Giày thể thao, Đua xe",
+            "Giày thể thao, Trượt patin"});
             this.cbbTheloai.Location = new System.Drawing.Point(206, 151);
             this.cbbTheloai.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cbbTheloai.Name = "cbbTheloai";
@@ -220,16 +276,14 @@
             this.cbbHangSP.FormattingEnabled = true;
             this.cbbHangSP.ItemHeight = 16;
             this.cbbHangSP.Items.AddRange(new object[] {
-            "Apple",
-            "Samsung",
-            "Intel",
-            "Oppo",
-            "Xiaomi",
-            "Nokia",
-            "Sony",
-            "Vivo",
-            "Huawei",
-            ""});
+            "Puma",
+            "Asics",
+            "Adidas",
+            "North Face",
+            "Nike",
+            "Under Armour",
+            "Puma",
+            "Rollerblade"});
             this.cbbHangSP.Location = new System.Drawing.Point(406, 74);
             this.cbbHangSP.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cbbHangSP.Name = "cbbHangSP";
@@ -276,7 +330,7 @@
             this.groupBox2.Margin = new System.Windows.Forms.Padding(3, 16, 3, 2);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox2.Size = new System.Drawing.Size(971, 189);
+            this.groupBox2.Size = new System.Drawing.Size(1005, 241);
             this.groupBox2.TabIndex = 10;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Danh sách các sản phẩm";
@@ -338,8 +392,10 @@
             this.dtgrvHienThiListSP.RowsDefaultCellStyle = dataGridViewCellStyle4;
             this.dtgrvHienThiListSP.RowTemplate.Height = 28;
             this.dtgrvHienThiListSP.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dtgrvHienThiListSP.Size = new System.Drawing.Size(965, 169);
+            this.dtgrvHienThiListSP.Size = new System.Drawing.Size(999, 221);
             this.dtgrvHienThiListSP.TabIndex = 0;
+            this.dtgrvHienThiListSP.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgrvHienThiListSP_CellClick);
+            this.dtgrvHienThiListSP.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgrvHienThiListSP_CellContentClick);
             // 
             // clMaSP
             // 
@@ -406,6 +462,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.btnSearch);
             this.groupBox1.Controls.Add(this.panel1);
             this.groupBox1.Controls.Add(this.txtGiaBan);
             this.groupBox1.Controls.Add(this.label7);
@@ -428,20 +485,33 @@
             this.groupBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 16);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(3, 2, 3, 16);
-            this.groupBox1.Size = new System.Drawing.Size(971, 261);
+            this.groupBox1.Size = new System.Drawing.Size(1005, 261);
             this.groupBox1.TabIndex = 9;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Thông tin sản phẩm";
+            // 
+            // btnSearch
+            // 
+            this.btnSearch.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnSearch.BackgroundImage")));
+            this.btnSearch.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnSearch.Location = new System.Drawing.Point(325, 214);
+            this.btnSearch.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnSearch.Name = "btnSearch";
+            this.btnSearch.Size = new System.Drawing.Size(49, 31);
+            this.btnSearch.TabIndex = 27;
+            this.btnSearch.UseVisualStyleBackColor = true;
             // 
             // SanPham
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(971, 450);
+            this.ClientSize = new System.Drawing.Size(1005, 502);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Name = "SanPham";
             this.Text = "SanPham";
+            this.Load += new System.EventHandler(this.SanPham_Load);
+            this.panel1.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dtgrvHienThiListSP)).EndInit();
             this.groupBox1.ResumeLayout(false);
@@ -478,5 +548,10 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn clXuatXu;
         private System.Windows.Forms.DataGridViewTextBoxColumn clGiaBan;
         private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.Button btnSearch;
+        private System.Windows.Forms.Button btn_xoa;
+        private System.Windows.Forms.Button btn_sua;
+        private System.Windows.Forms.Button btn_them;
+        private System.Windows.Forms.Button btn_reset;
     }
 }

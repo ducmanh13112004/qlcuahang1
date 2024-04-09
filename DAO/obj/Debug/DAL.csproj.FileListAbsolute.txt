@@ -11,3 +11,16 @@ D:\c#\QL-BanGiayTheThao\DAO\obj\Debug\DAL.csproj.CoreCompileInputs.cache
 D:\c#\QL-BanGiayTheThao\DAO\obj\Debug\DAL.csproj.Up2Date
 D:\c#\QL-BanGiayTheThao\DAO\obj\Debug\DAO.exe
 D:\c#\QL-BanGiayTheThao\DAO\obj\Debug\DAO.pdb
+C:\Users\nguye\Source\Repos\qlcuahang1\DAO\bin\Debug\DAO.exe.config
+C:\Users\nguye\Source\Repos\qlcuahang1\DAO\bin\Debug\DAO.exe
+C:\Users\nguye\Source\Repos\qlcuahang1\DAO\bin\Debug\DAO.pdb
+C:\Users\nguye\Source\Repos\qlcuahang1\DAO\bin\Debug\DTO.exe
+C:\Users\nguye\Source\Repos\qlcuahang1\DAO\bin\Debug\DTO.pdb
+C:\Users\nguye\Source\Repos\qlcuahang1\DAO\bin\Debug\DTO.exe.config
+C:\Users\nguye\Source\Repos\qlcuahang1\DAO\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\nguye\Source\Repos\qlcuahang1\DAO\obj\Debug\DAO.Properties.Resources.resources
+C:\Users\nguye\Source\Repos\qlcuahang1\DAO\obj\Debug\DAL.csproj.GenerateResource.cache
+C:\Users\nguye\Source\Repos\qlcuahang1\DAO\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\nguye\Source\Repos\qlcuahang1\DAO\obj\Debug\DAL.csproj.Up2Date
+C:\Users\nguye\Source\Repos\qlcuahang1\DAO\obj\Debug\DAO.exe
+C:\Users\nguye\Source\Repos\qlcuahang1\DAO\obj\Debug\DAO.pdb

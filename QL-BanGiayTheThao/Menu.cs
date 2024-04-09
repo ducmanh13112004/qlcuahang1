@@ -16,5 +16,21 @@ namespace QL_BanGiayTheThao
         {
             InitializeComponent();
         }
+
+        private void lblDateTime_Click(object sender, EventArgs e)
+        {
+
+        }
+        static string GetTimeNow()
+        {
+            DateTime date = DateTime.Now; // Lấy thời điểm hiện tại
+
+            string dayOfWeek = date.ToString("dddd"); // Lấy thứ trong tuần
+            string dayOfMonth = date.Day.ToString(); // Lấy ngày trong tháng
+            string month = date.Month.ToString(); // Lấy tên của tháng
+            string year = date.Year.ToString(); // Lấy năm
+
+            return $"{dayOfWeek}, ngày {dayOfMonth}/{month}/{year}";
+        }
     }
 }

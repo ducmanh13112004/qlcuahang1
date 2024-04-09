@@ -5,36 +5,17 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data;
 using System.Data.SqlClient;
+using DAO;
+using DTO;
 namespace BUS
 {
-    internal class NhanVienBUS
+    public class NhanVienBUS
     {
-        //lấy không đc nhân viên bus
+        NhanVienDAO dalNhanVien = new DAO.NhanVienDAO();
 
-
-        SqlDataAdapter dataAdapter;
-        public NhanVienBUS()
+        public DataTable listOfNhanVien()
         {
-
-        }
-        public DataTable getAllnhanvien()
-        {
-            DataTable dataTable = new DataTable();
-            string query = "select * from nhanvien";
-            using (SqlConnection sqlConnection = NhanVienBUS.getConnection())
-            {
-                sqlConnection.Open();
-                dataAdapter = new SqlDataAdapter(query, sqlConnection);
-                dataAdapter.Fill(dataTable);
-                sqlConnection.Close();
-            }
-            return dataTable;
-        }
-
-        private static SqlConnection getConnection()
-        {
-            string connectionString = "Data Source=.;Initial Catalog=QLCuaHangGiayTheThao;Integrated Security=True"; // Thay thế bằng chuỗi kết nối thực tế của bạn
-            return new SqlConnection(connectionString);
+            return dalNhanVien.ListNhanVienDAO();
         }
 
     }

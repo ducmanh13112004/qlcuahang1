@@ -1,50 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\c#\\QL-BanGiayTheThao\\",
+  "WorkspaceRootPath": "D:\\qlcuahang1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B9321467-9914-46BA-A07C-1109FEFB2D88}|QL-BanGiayTheThao\\QL-BanGiayTheThao.csproj|D:\\c#\\QL-BanGiayTheThao\\ql-bangiaythethao\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9321467-9914-46BA-A07C-1109FEFB2D88}|QL-BanGiayTheThao\\QL-BanGiayTheThao.csproj|solutionrelative:ql-bangiaythethao\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B9321467-9914-46BA-A07C-1109FEFB2D88}|QL-BanGiayTheThao\\QL-BanGiayTheThao.csproj|D:\\qlcuahang1\\ql-bangiaythethao\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9321467-9914-46BA-A07C-1109FEFB2D88}|QL-BanGiayTheThao\\QL-BanGiayTheThao.csproj|solutionrelative:ql-bangiaythethao\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{45958285-07A8-465C-94EE-23A943FBD283}|DAO\\DAL.csproj|D:\\c#\\QL-BanGiayTheThao\\dao\\nhanviendal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{45958285-07A8-465C-94EE-23A943FBD283}|DAO\\DAL.csproj|solutionrelative:dao\\nhanviendal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{45958285-07A8-465C-94EE-23A943FBD283}|DAO\\DAO.csproj|D:\\qlcuahang1\\dao\\sanphamdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45958285-07A8-465C-94EE-23A943FBD283}|DAO\\DAO.csproj|solutionrelative:dao\\sanphamdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{19442F7E-6FB7-4015-8458-4187857BAF5A}|BUS\\BUS.csproj|d:\\c#\\ql-bangiaythethao\\bus\\nhanvienbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{19442F7E-6FB7-4015-8458-4187857BAF5A}|BUS\\BUS.csproj|solutionrelative:bus\\nhanvienbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{19442F7E-6FB7-4015-8458-4187857BAF5A}|BUS\\BUS.csproj|d:\\qlcuahang1\\bus\\sanphambus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19442F7E-6FB7-4015-8458-4187857BAF5A}|BUS\\BUS.csproj|solutionrelative:bus\\sanphambus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9321467-9914-46BA-A07C-1109FEFB2D88}|QL-BanGiayTheThao\\QL-BanGiayTheThao.csproj|D:\\c#\\QL-BanGiayTheThao\\ql-bangiaythethao\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B9321467-9914-46BA-A07C-1109FEFB2D88}|QL-BanGiayTheThao\\QL-BanGiayTheThao.csproj|solutionrelative:ql-bangiaythethao\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{45958285-07A8-465C-94EE-23A943FBD283}|DAO\\DAO.csproj|d:\\qlcuahang1\\dao\\connectdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45958285-07A8-465C-94EE-23A943FBD283}|DAO\\DAO.csproj|solutionrelative:dao\\connectdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DB74AFD4-FA85-4509-A034-B7C32956B22C}|DTO\\DTO.csproj|D:\\c#\\QL-BanGiayTheThao\\dto\\nhanviendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DB74AFD4-FA85-4509-A034-B7C32956B22C}|DTO\\DTO.csproj|solutionrelative:dto\\nhanviendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B9321467-9914-46BA-A07C-1109FEFB2D88}|QL-BanGiayTheThao\\QL-BanGiayTheThao.csproj|d:\\qlcuahang1\\ql-bangiaythethao\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B9321467-9914-46BA-A07C-1109FEFB2D88}|QL-BanGiayTheThao\\QL-BanGiayTheThao.csproj|solutionrelative:ql-bangiaythethao\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9321467-9914-46BA-A07C-1109FEFB2D88}|QL-BanGiayTheThao\\QL-BanGiayTheThao.csproj|d:\\c#\\ql-bangiaythethao\\ql-bangiaythethao\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B9321467-9914-46BA-A07C-1109FEFB2D88}|QL-BanGiayTheThao\\QL-BanGiayTheThao.csproj|D:\\qlcuahang1\\ql-bangiaythethao\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B9321467-9914-46BA-A07C-1109FEFB2D88}|QL-BanGiayTheThao\\QL-BanGiayTheThao.csproj|solutionrelative:ql-bangiaythethao\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9321467-9914-46BA-A07C-1109FEFB2D88}|QL-BanGiayTheThao\\QL-BanGiayTheThao.csproj|d:\\c#\\ql-bangiaythethao\\ql-bangiaythethao\\nhacc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B9321467-9914-46BA-A07C-1109FEFB2D88}|QL-BanGiayTheThao\\QL-BanGiayTheThao.csproj|solutionrelative:ql-bangiaythethao\\nhacc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9321467-9914-46BA-A07C-1109FEFB2D88}|QL-BanGiayTheThao\\QL-BanGiayTheThao.csproj|d:\\c#\\ql-bangiaythethao\\ql-bangiaythethao\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B9321467-9914-46BA-A07C-1109FEFB2D88}|QL-BanGiayTheThao\\QL-BanGiayTheThao.csproj|solutionrelative:ql-bangiaythethao\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9321467-9914-46BA-A07C-1109FEFB2D88}|QL-BanGiayTheThao\\QL-BanGiayTheThao.csproj|d:\\c#\\ql-bangiaythethao\\ql-bangiaythethao\\donhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B9321467-9914-46BA-A07C-1109FEFB2D88}|QL-BanGiayTheThao\\QL-BanGiayTheThao.csproj|solutionrelative:ql-bangiaythethao\\donhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9321467-9914-46BA-A07C-1109FEFB2D88}|QL-BanGiayTheThao\\QL-BanGiayTheThao.csproj|d:\\c#\\ql-bangiaythethao\\ql-bangiaythethao\\thongke.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B9321467-9914-46BA-A07C-1109FEFB2D88}|QL-BanGiayTheThao\\QL-BanGiayTheThao.csproj|solutionrelative:ql-bangiaythethao\\thongke.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9321467-9914-46BA-A07C-1109FEFB2D88}|QL-BanGiayTheThao\\QL-BanGiayTheThao.csproj|d:\\c#\\ql-bangiaythethao\\ql-bangiaythethao\\thongke.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9321467-9914-46BA-A07C-1109FEFB2D88}|QL-BanGiayTheThao\\QL-BanGiayTheThao.csproj|solutionrelative:ql-bangiaythethao\\thongke.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -78,141 +58,80 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\c#\\QL-BanGiayTheThao\\QL-BanGiayTheThao\\Program.cs",
-              "RelativeDocumentMoniker": "QL-BanGiayTheThao\\Program.cs",
-              "ToolTip": "D:\\c#\\QL-BanGiayTheThao\\QL-BanGiayTheThao\\Program.cs",
-              "RelativeToolTip": "QL-BanGiayTheThao\\Program.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABQAAAAFAAAA",
+              "DocumentIndex": 3,
+              "Title": "ConnectDB.cs",
+              "DocumentMoniker": "D:\\qlcuahang1\\DAO\\ConnectDB.cs",
+              "RelativeDocumentMoniker": "DAO\\ConnectDB.cs",
+              "ToolTip": "D:\\qlcuahang1\\DAO\\ConnectDB.cs",
+              "RelativeToolTip": "DAO\\ConnectDB.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAcwBIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-07T03:24:51.147Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "NhanVienBUS.cs",
-              "DocumentMoniker": "D:\\c#\\QL-BanGiayTheThao\\BUS\\NhanVienBUS.cs",
-              "RelativeDocumentMoniker": "BUS\\NhanVienBUS.cs",
-              "ToolTip": "D:\\c#\\QL-BanGiayTheThao\\BUS\\NhanVienBUS.cs",
-              "RelativeToolTip": "BUS\\NhanVienBUS.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBMAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-06T15:50:03.572Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "NhanVienDAL.cs",
-              "DocumentMoniker": "D:\\c#\\QL-BanGiayTheThao\\DAO\\NhanVienDAL.cs",
-              "RelativeDocumentMoniker": "DAO\\NhanVienDAL.cs",
-              "ToolTip": "D:\\c#\\QL-BanGiayTheThao\\DAO\\NhanVienDAL.cs",
-              "RelativeToolTip": "DAO\\NhanVienDAL.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-06T15:56:45.467Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "NhanVien.cs",
-              "DocumentMoniker": "D:\\c#\\QL-BanGiayTheThao\\QL-BanGiayTheThao\\NhanVien.cs",
-              "RelativeDocumentMoniker": "QL-BanGiayTheThao\\NhanVien.cs",
-              "ToolTip": "D:\\c#\\QL-BanGiayTheThao\\QL-BanGiayTheThao\\NhanVien.cs",
-              "RelativeToolTip": "QL-BanGiayTheThao\\NhanVien.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAArwBYAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-06T15:47:35.637Z",
+              "WhenOpened": "2024-04-08T17:08:30.538Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "NhanVienDTO.cs",
-              "DocumentMoniker": "D:\\c#\\QL-BanGiayTheThao\\DTO\\NhanVienDTO.cs",
-              "RelativeDocumentMoniker": "DTO\\NhanVienDTO.cs",
-              "ToolTip": "D:\\c#\\QL-BanGiayTheThao\\DTO\\NhanVienDTO.cs",
-              "RelativeToolTip": "DTO\\NhanVienDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAfAAAA",
+              "Title": "SanPham.cs [Design]",
+              "DocumentMoniker": "D:\\qlcuahang1\\QL-BanGiayTheThao\\SanPham.cs",
+              "RelativeDocumentMoniker": "QL-BanGiayTheThao\\SanPham.cs",
+              "ToolTip": "D:\\qlcuahang1\\QL-BanGiayTheThao\\SanPham.cs [Design]",
+              "RelativeToolTip": "QL-BanGiayTheThao\\SanPham.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-06T15:39:58.942Z",
+              "WhenOpened": "2024-04-08T16:47:25.393Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SanPhamBUS.cs",
+              "DocumentMoniker": "D:\\qlcuahang1\\BUS\\SanPhamBUS.cs",
+              "RelativeDocumentMoniker": "BUS\\SanPhamBUS.cs",
+              "ToolTip": "D:\\qlcuahang1\\BUS\\SanPhamBUS.cs",
+              "RelativeToolTip": "BUS\\SanPhamBUS.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAUwCEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T15:30:09.903Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "NhanVien.cs [Design]",
-              "DocumentMoniker": "D:\\c#\\QL-BanGiayTheThao\\QL-BanGiayTheThao\\NhanVien.cs",
-              "RelativeDocumentMoniker": "QL-BanGiayTheThao\\NhanVien.cs",
-              "ToolTip": "D:\\c#\\QL-BanGiayTheThao\\QL-BanGiayTheThao\\NhanVien.cs [Design]",
-              "RelativeToolTip": "QL-BanGiayTheThao\\NhanVien.cs [Design]",
+              "DocumentIndex": 0,
+              "Title": "SanPham.cs",
+              "DocumentMoniker": "D:\\qlcuahang1\\QL-BanGiayTheThao\\SanPham.cs",
+              "RelativeDocumentMoniker": "QL-BanGiayTheThao\\SanPham.cs",
+              "ToolTip": "D:\\qlcuahang1\\QL-BanGiayTheThao\\SanPham.cs",
+              "RelativeToolTip": "QL-BanGiayTheThao\\SanPham.cs",
+              "ViewState": "AQIAAHkAAAAAAAAAAAAIwIcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-06T16:13:24.732Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "NhaCC.cs [Design]",
-              "DocumentMoniker": "D:\\c#\\QL-BanGiayTheThao\\QL-BanGiayTheThao\\NhaCC.cs",
-              "RelativeDocumentMoniker": "QL-BanGiayTheThao\\NhaCC.cs",
-              "ToolTip": "D:\\c#\\QL-BanGiayTheThao\\QL-BanGiayTheThao\\NhaCC.cs [Design]",
-              "RelativeToolTip": "QL-BanGiayTheThao\\NhaCC.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-07T03:25:34.892Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Menu.cs [Design]",
-              "DocumentMoniker": "D:\\c#\\QL-BanGiayTheThao\\QL-BanGiayTheThao\\Menu.cs",
-              "RelativeDocumentMoniker": "QL-BanGiayTheThao\\Menu.cs",
-              "ToolTip": "D:\\c#\\QL-BanGiayTheThao\\QL-BanGiayTheThao\\Menu.cs [Design]",
-              "RelativeToolTip": "QL-BanGiayTheThao\\Menu.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-07T03:25:30.646Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ThongKe.cs [Design]",
-              "DocumentMoniker": "D:\\c#\\QL-BanGiayTheThao\\QL-BanGiayTheThao\\ThongKe.cs",
-              "RelativeDocumentMoniker": "QL-BanGiayTheThao\\ThongKe.cs",
-              "ToolTip": "D:\\c#\\QL-BanGiayTheThao\\QL-BanGiayTheThao\\ThongKe.cs [Design]",
-              "RelativeToolTip": "QL-BanGiayTheThao\\ThongKe.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-07T03:24:34.425Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ThongKe.cs",
-              "DocumentMoniker": "D:\\c#\\QL-BanGiayTheThao\\QL-BanGiayTheThao\\ThongKe.cs",
-              "RelativeDocumentMoniker": "QL-BanGiayTheThao\\ThongKe.cs",
-              "ToolTip": "D:\\c#\\QL-BanGiayTheThao\\QL-BanGiayTheThao\\ThongKe.cs",
-              "RelativeToolTip": "QL-BanGiayTheThao\\ThongKe.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAEwBUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-07T03:24:39.215Z",
+              "WhenOpened": "2024-04-07T10:29:12.76Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "DonHang.cs [Design]",
-              "DocumentMoniker": "D:\\c#\\QL-BanGiayTheThao\\QL-BanGiayTheThao\\DonHang.cs",
-              "RelativeDocumentMoniker": "QL-BanGiayTheThao\\DonHang.cs",
-              "ToolTip": "D:\\c#\\QL-BanGiayTheThao\\QL-BanGiayTheThao\\DonHang.cs [Design]",
-              "RelativeToolTip": "QL-BanGiayTheThao\\DonHang.cs [Design]",
+              "DocumentIndex": 1,
+              "Title": "SanPhamDAO.cs",
+              "DocumentMoniker": "D:\\qlcuahang1\\DAO\\SanPhamDAO.cs",
+              "RelativeDocumentMoniker": "DAO\\SanPhamDAO.cs",
+              "ToolTip": "D:\\qlcuahang1\\DAO\\SanPhamDAO.cs",
+              "RelativeToolTip": "DAO\\SanPhamDAO.cs",
+              "ViewState": "AQIAAFIAAAAAAAAAAAA0wGYAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-07T03:23:59.109Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-04-07T09:31:25.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\qlcuahang1\\QL-BanGiayTheThao\\Program.cs",
+              "RelativeDocumentMoniker": "QL-BanGiayTheThao\\Program.cs",
+              "ToolTip": "D:\\qlcuahang1\\QL-BanGiayTheThao\\Program.cs",
+              "RelativeToolTip": "QL-BanGiayTheThao\\Program.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T10:25:57.96Z",
+              "EditorCaption": ""
             }
           ]
         },
