@@ -3,23 +3,23 @@
   "WorkspaceRootPath": "D:\\qlcuahang1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B9321467-9914-46BA-A07C-1109FEFB2D88}|QL-BanGiayTheThao\\QL-BanGiayTheThao.csproj|D:\\qlcuahang1\\ql-bangiaythethao\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9321467-9914-46BA-A07C-1109FEFB2D88}|QL-BanGiayTheThao\\QL-BanGiayTheThao.csproj|solutionrelative:ql-bangiaythethao\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{45958285-07A8-465C-94EE-23A943FBD283}|DAO\\DAO.csproj|D:\\qlcuahang1\\dao\\sanphamdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{45958285-07A8-465C-94EE-23A943FBD283}|DAO\\DAO.csproj|solutionrelative:dao\\sanphamdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{19442F7E-6FB7-4015-8458-4187857BAF5A}|BUS\\BUS.csproj|d:\\qlcuahang1\\bus\\sanphambus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B9321467-9914-46BA-A07C-1109FEFB2D88}|QL-BanGiayTheThao\\QL-BanGiayTheThao.csproj|d:\\qlcuahang1\\ql-bangiaythethao\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9321467-9914-46BA-A07C-1109FEFB2D88}|QL-BanGiayTheThao\\QL-BanGiayTheThao.csproj|solutionrelative:ql-bangiaythethao\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19442F7E-6FB7-4015-8458-4187857BAF5A}|BUS\\BUS.csproj|D:\\qlcuahang1\\bus\\sanphambus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{19442F7E-6FB7-4015-8458-4187857BAF5A}|BUS\\BUS.csproj|solutionrelative:bus\\sanphambus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{45958285-07A8-465C-94EE-23A943FBD283}|DAO\\DAO.csproj|d:\\qlcuahang1\\dao\\connectdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{45958285-07A8-465C-94EE-23A943FBD283}|DAO\\DAO.csproj|D:\\qlcuahang1\\dao\\connectdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{45958285-07A8-465C-94EE-23A943FBD283}|DAO\\DAO.csproj|solutionrelative:dao\\connectdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9321467-9914-46BA-A07C-1109FEFB2D88}|QL-BanGiayTheThao\\QL-BanGiayTheThao.csproj|d:\\qlcuahang1\\ql-bangiaythethao\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{B9321467-9914-46BA-A07C-1109FEFB2D88}|QL-BanGiayTheThao\\QL-BanGiayTheThao.csproj|D:\\qlcuahang1\\ql-bangiaythethao\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{B9321467-9914-46BA-A07C-1109FEFB2D88}|QL-BanGiayTheThao\\QL-BanGiayTheThao.csproj|solutionrelative:ql-bangiaythethao\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,8 +66,7 @@
               "RelativeToolTip": "DAO\\ConnectDB.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAcwBIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T17:08:30.538Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-08T17:08:30.538Z"
             },
             {
               "$type": "Document",
@@ -91,31 +90,30 @@
               "RelativeToolTip": "BUS\\SanPhamBUS.cs",
               "ViewState": "AQIAABcAAAAAAAAAAAAUwCEAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T15:30:09.903Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-08T15:30:09.903Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "SanPham.cs",
               "DocumentMoniker": "D:\\qlcuahang1\\QL-BanGiayTheThao\\SanPham.cs",
               "RelativeDocumentMoniker": "QL-BanGiayTheThao\\SanPham.cs",
               "ToolTip": "D:\\qlcuahang1\\QL-BanGiayTheThao\\SanPham.cs",
               "RelativeToolTip": "QL-BanGiayTheThao\\SanPham.cs",
-              "ViewState": "AQIAAHkAAAAAAAAAAAAIwIcAAAAAAAAA",
+              "ViewState": "AQIAAFwAAAAAAAAAAADwv2UAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-07T10:29:12.76Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "SanPhamDAO.cs",
               "DocumentMoniker": "D:\\qlcuahang1\\DAO\\SanPhamDAO.cs",
               "RelativeDocumentMoniker": "DAO\\SanPhamDAO.cs",
               "ToolTip": "D:\\qlcuahang1\\DAO\\SanPhamDAO.cs",
               "RelativeToolTip": "DAO\\SanPhamDAO.cs",
-              "ViewState": "AQIAAFIAAAAAAAAAAAA0wGYAAAANAAAA",
+              "ViewState": "AQIAAEYAAAAAAAAAAAAcwFAAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-07T09:31:25.435Z",
               "EditorCaption": ""
@@ -130,8 +128,7 @@
               "RelativeToolTip": "QL-BanGiayTheThao\\Program.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAABMAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-07T10:25:57.96Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-07T10:25:57.96Z"
             }
           ]
         },

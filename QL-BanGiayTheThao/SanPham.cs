@@ -99,12 +99,16 @@ namespace QL_BanGiayTheThao
             SanPhamDAO daoSanPham = new SanPhamDAO();
 
             // Kiểm tra xem mã sản phẩm đã tồn tại hay chưa
-            if (daoSanPham.kiemTraExist(sanPham.MaSP))
+            if (daoSanPham.kiemTraMaSP(sanPham.MaSP))
             {
                 MessageBox.Show("Mã sản phẩm đã tồn tại!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
-
+            if (daoSanPham.kiemtraMaNCC(sanPham.MaNCC))
+            {
+                MessageBox.Show("Mã nhà cung cấp không tồn tại!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
             // Tạo một đối tượng SanPhamBUS và gọi phương thức thêm sản phẩm từ lớp BUS
             SanPhamBUS sanPhamBUS = new SanPhamBUS();
             sanPhamBUS.AddSanPham(sanPham);
